@@ -49,7 +49,7 @@ jobs:
           sed -i "s/version: .*/version: $NEW_VERSION/" "$DIRECTORY/config.yaml"
           
           # Prepare changelog entry
-          NEW_ENTRY="# $NEW_VERSION\n- Update $PACKAGE_NAME to $NEW_VERSION\n"
+          NEW_ENTRY="## $NEW_VERSION\n- Update $PACKAGE_NAME to $NEW_VERSION\n"
 
           # Prepend new changelog entry
           echo -e "$NEW_ENTRY$(cat $DIRECTORY/CHANGELOG.md)" > "$DIRECTORY/CHANGELOG.md"

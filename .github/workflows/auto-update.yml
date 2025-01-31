@@ -46,7 +46,7 @@ jobs:
           DIRECTORY=".${{ steps.metadata.outputs.directory }}"
           
           # Update files with new version
-          sed -i "s/version: .*/version: \"$NEW_VERSION\"/" "$DIRECTORY/config.yaml"
+          sed -i "s/version: .*/version: $NEW_VERSION/" "$DIRECTORY/config.yaml"
           
           # Prepare changelog entry
           NEW_ENTRY="# $NEW_VERSION\n- Update $PACKAGE_NAME to $NEW_VERSION\n"

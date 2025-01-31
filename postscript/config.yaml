@@ -1,0 +1,24 @@
+name: PostScript Printer
+version: 20240504-11-edge
+slug: ps-printer-app
+description: Supports printers using PostScript
+url: https://github.com/Eskander/ha-addon-printer
+arch:
+  - amd64
+  - aarch64
+  - armv7
+stage: experimental
+init: false
+environment:
+  PORT: "631"
+webui: http://[HOST]:[PORT:631]
+host_network: true
+usb: true
+map:
+  - type: data
+    path: /etc/cups/
+    read_only: false
+  - type: addon_config
+    path: /var/lib/ps-printer-app
+    read_only: false
+image: ghcr.io/openprinting/ps-printer-app

@@ -1,0 +1,24 @@
+name: HPLIP Printer
+version: 3.22.10-13-edge
+slug: hplip-printer
+description: Supports printers using HPLIP printer driver
+url: https://github.com/Eskander/ha-addon-printer
+arch:
+  - amd64
+  - aarch64
+  - armv7
+stage: experimental
+init: false
+environment:
+  PORT: "631"
+webui: http://[HOST]:[PORT:631]
+host_network: true
+usb: true
+map:
+  - type: data
+    path: /etc/cups/
+    read_only: false
+  - type: addon_config
+    path: /var/lib/hplip-printer-app
+    read_only: false
+image: ghcr.io/openprinting/hplip-printer-app

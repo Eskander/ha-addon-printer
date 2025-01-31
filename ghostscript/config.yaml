@@ -1,0 +1,24 @@
+name: Ghostscript Printer
+version: 10.05.0-3-edge
+slug: ghostscript-printer
+description: Supports printers using Ghostscript printer drivers and some extra filters
+url: https://github.com/Eskander/ha-addon-printer
+arch:
+  - amd64
+  - aarch64
+  - armv7
+stage: experimental
+init: false
+environment:
+  PORT: "631"
+webui: http://[HOST]:[PORT:631]
+host_network: true
+usb: true
+map:
+  - type: data
+    path: /etc/cups/
+    read_only: false
+  - type: addon_config
+    path: /var/lib/ghostscript-printer-app
+    read_only: false
+image: ghcr.io/openprinting/ghostscript-printer-app

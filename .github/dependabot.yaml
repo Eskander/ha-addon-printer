@@ -15,3 +15,6 @@ updates:
       - postscript
     schedule:
       interval: weekly
+    groups:
+      printers:
+        patterns: ["*"]

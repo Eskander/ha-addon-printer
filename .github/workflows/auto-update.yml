@@ -25,7 +25,10 @@ jobs:
           # Approve and merge Dependabot PR automatically
           gh pr review ${{ github.event.pull_request.html_url }} --approve
           gh pr edit ${{ github.event.pull_request.html_url }} --add-label auto-merged
-          gh pr merge ${{ github.event.pull_request.html_url }} --merge
+          
+          for i in {1..3}; do
+            gh pr merge ${{ github.event.pull_request.html_url }} --merge && break || sleep 10
+          done
 
       - name: Get Dependency Metadata
         id: metadata

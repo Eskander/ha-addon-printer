@@ -1,6 +1,6 @@
 name: PostScript Printer
 version: 20240504-14-edge
-slug: ps-printer-app
+slug: postscript-printer
 description: Supports printers using PostScript
 url: https://github.com/Eskander/ha-addon-printer
 arch:

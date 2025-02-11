@@ -1,5 +1,5 @@
 name: Ghostscript Printer
-version: 10.05.0-5-edge
+version: 10.05.0-6-edge
 slug: ghostscript-printer
 description: Supports printers using Ghostscript printer drivers and some extra filters
 url: https://github.com/Eskander/ha-addon-printer

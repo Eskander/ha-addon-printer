@@ -1,1 +1,3 @@
-# ha-addon-printer
+# Network Printing for Home Assistant
+
+WIP

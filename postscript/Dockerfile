@@ -1,1 +1,1 @@
-FROM ghcr.io/openprinting/ps-printer-app:20240504-13-edge
+FROM ghcr.io/openprinting/ps-printer-app:20240504-14-edge

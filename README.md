@@ -1,3 +1,3 @@
 # Network Printing for Home Assistant
 
-WIP
+WIP - BROKEN - Do not use

@@ -32,11 +32,11 @@ jobs:
 
       - name: Get Dependency Metadata
         id: metadata
-        uses: dependabot/fetch-metadata@v2.3.0
+        uses: dependabot/fetch-metadata@v2
 
       - name: Checkout Repository
         if: steps.metadata.outputs.package-ecosystem == 'docker'
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0

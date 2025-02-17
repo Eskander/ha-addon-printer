@@ -1,5 +1,5 @@
 name: HPLIP Printer
-version: 3.22.10-16-edge
+version: 3.22.10-17-edge
 slug: hplip-printer
 description: Supports printers using HPLIP printer driver
 url: https://github.com/Eskander/ha-addon-printer

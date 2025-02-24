@@ -1,5 +1,5 @@
 name: PostScript Printer
-version: 20240504-15-edge
+version: 20240504-17-edge
 slug: postscript-printer
 description: Supports printers using PostScript
 url: https://github.com/Eskander/ha-addon-printer

@@ -1,3 +1,5 @@
+## 20240504-18-edge
+- Update openprinting/ps-printer-app to 20240504-18-edge
 ## 20240504-17-edge
 - Update openprinting/ps-printer-app to 20240504-17-edge
 ## 20240504-15-edge

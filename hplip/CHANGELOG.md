@@ -1,3 +1,5 @@
+## 3.22.10-20-edge
+- Update openprinting/hplip-printer-app to 3.22.10-20-edge
 ## 3.22.10-19-edge
 - Update openprinting/hplip-printer-app to 3.22.10-19-edge
 ## 3.22.10-17-edge

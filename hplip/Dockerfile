@@ -1,1 +1,1 @@
-FROM ghcr.io/openprinting/hplip-printer-app:3.22.10-20-edge
+FROM ghcr.io/openprinting/hplip-printer-app:3.22.10-21-edge

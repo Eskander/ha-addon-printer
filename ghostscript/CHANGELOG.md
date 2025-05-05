@@ -1,3 +1,5 @@
+## 10.05.1-1-edge
+- Update openprinting/ghostscript-printer-app to 10.05.1-1-edge
 ## 10.05.0-11-edge
 - Update openprinting/ghostscript-printer-app to 10.05.0-11-edge
 ## 10.05.0-10-edge

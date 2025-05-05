@@ -1,1 +1,1 @@
-FROM ghcr.io/openprinting/ghostscript-printer-app:10.05.0-11-edge
+FROM ghcr.io/openprinting/ghostscript-printer-app:10.05.1-1-edge

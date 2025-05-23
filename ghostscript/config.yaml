@@ -6,7 +6,6 @@ url: https://github.com/Eskander/ha-addon-printer
 arch:
   - amd64
   - aarch64
-  - armv7
 stage: experimental
 init: false
 environment:
